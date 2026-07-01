@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MASTERINWEB · Dossier Segreto</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font e icone (opzionali) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dossier" id="dossier">
+    <!-- Effetto torcia -->
+    <div class="torcia" id="torcia"></div>
+
+    <!-- Badge superiore -->
+    <div class="badge-top">🔒 LIVELLO 5 · PRE-LANCIO</div>
+
+    <div class="content">
+      <div class="badge">📁 DOSSIER · MASTERINWEB</div>
+      <h1>MASTERINWEB<br><span>sta arrivando</span></h1>
+      <p class="sottotitolo">
+        <strong>L'intelligenza investigativa</strong> di <strong>Maiolini Claudio</strong> sta per arrivare.<br>
+        Incrocia centinaia di fonti e vede ciò che nessuno mette insieme.
+      </p>
+      <div class="tagline">
+        <span>🧠 100 OCCHI · 1 SGUARDO</span>
+        <span class="codice">▸ CODICE: 0x4D41</span>
+      </div>
+
+      <!-- FORM DI REGISTRAZIONE -->
+      <form class="waitlist-form" id="waitlistForm">
+        <input type="email" id="emailInput" placeholder="📡 IN ASCOLTO… INSERISCI EMAIL" required>
+        <button type="submit" id="submitBtn">🔓 ACCEDI ALLA WAITLIST</button>
+      </form>
+
+      <div class="privacy-note">
+        Iscrivendoti accetti di ricevere comunicazioni su MASTERINWEB.
+        <a href="#">Privacy policy</a> <span class="punto-verde">⏺</span>
+      </div>
+
+      <!-- STATO ISCRIZIONE -->
+      <div class="waitlist-status" id="statusBox">
+        <span class="check">●</span> Accesso registrato · Sei nella waitlist
+        <small>— crittografato</small>
+      </div>
+      <div class="footer-note" id="footerNote">
+        <span class="lock-icon">🔐</span> iscritto alla waitlist di MASTERINWEB · <span id="userEmailDisplay">Maiolini Claudio</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
